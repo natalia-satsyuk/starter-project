@@ -15,8 +15,55 @@
         <div>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
         </div>
-        <img width="200" src='img/dd.jpg' alt='pic22'>
+       
+        <picture class="img-poly">
+			<source media="(min-width: 728px)" srcset="img/picture/tshirt-for-gamer.webp" type="image/webp">
+			<source media="(min-width: 728px)" srcset="img/picture/tshirt-for-gamer.jpg">
+
+		    <source media="(min-width: 320px)" srcset="img/picture/tshirt-for-gamer-small.webp" type="image/webp">
+		    <source media="(min-width: 320px)" srcset="img/picture/tshirt-for-gamer-small.jpg">
+
+		    <img width="200" src='img/dd.jpg' alt="alt">
+        </picture>
+        
+        <div class="share-wrap">
+    <button class="pointer share-action">Share it!</button>
+                    
+    <div class="share share--popup"> 
+        
+        <div class="bg-helper"> <!-- for ie box-shadow-tail --> 
+            <div class="social-share" role="tablist" aria-label="sharing">							
+                <a href="#" class="social-share__item" role="tab" aria-label="facebook sharing">
+                    <img class="social-share__ico social-share__ico--fb" src="img/svg-icon/fb.svg" alt="fb-share">
+                </a>
+                <a href="#" class="social-share__item" role="tab" aria-label="twitter sharing">
+                    <img class="social-share__ico social-share__ico--twitter" src="img/svg-icon/twitter.svg" alt="twitter-share">
+                </a>
+                <a href="#" class="social-share__item" role="tab" aria-label="pinterest sharing">
+                    <img class="social-share__ico social-share__ico--pinterest" src="img/svg-icon/pinterest.svg" alt="pinterest-share">
+                </a>
+                <a href="#" class="social-share__item" role="tab" aria-label="youtube sharing">
+                    <img class="social-share__ico social-share__ico--youtube" src="img/svg-icon/youtube.svg" alt="youtube-share">
+                </a>							
+            </div>	
+            <button class="close" aria-label="close sharing">
+                <img src="img/svg-icon/close.svg" alt="close-share">
+            </button>
+        </div>						
+    </div>						
+</div>
     </main>
-    <script src="js/script.min.js"></script>  
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="js/script.min.js"></script>
+    <script src="js/slick.js"></script>
+
+    <!-- for ie-11 images object-fit -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/object-fit-images/3.2.4/ofi.min.js"></script>
+    <script>
+        objectFitImages();
+    </script>
 </body>
 </html>

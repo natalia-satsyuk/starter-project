@@ -1,2 +1,3 @@
-// @@include('alert.js')
 @@include('webp-class.js')
+@@include('video.js')
+@@include('popup.js')

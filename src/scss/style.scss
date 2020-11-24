@@ -1,33 +1,36 @@
-@mixin font($font_name, $file_name, $weight, $style) {
+@import 'base/style.scss';
+@import 'other/style.scss'
 
-    @font-face {
-        font-family: $font_name;
-        font-display: swap;
-        src: url("../fonts/#{$file_name}.woff") format("woff"), url("../fonts/#{$file_name}.woff2") format("woff2");
-        font-weight: #{$weight};
-        font-style: #{$style};
-        }
-    }
+// @mixin font($font_name, $file_name, $weight, $style) {
 
-@import 'fonts';
+//     @font-face {
+//         font-family: $font_name;
+//         font-display: swap;
+//         src: url("../fonts/#{$file_name}.woff") format("woff"), url("../fonts/#{$file_name}.woff2") format("woff2");
+//         font-weight: #{$weight};
+//         font-style: #{$style};
+//         }
+//     }
+
+// @import 'fonts';
 
 
-body {
-    background: gray;
-    display: flex;
-    flex-direction: column;
-}
+// body {
+//     background: gray;
+//     display: flex;
+//     flex-direction: column;
+// }
 
-p {
-    font-size: 20px;
-    @media(max-width: 767px) {
-        font-size: 15px;
-    }
-}
+// p {
+//     font-size: 20px;
+//     @media(max-width: 767px) {
+//         font-size: 15px;
+//     }
+// }
 
-div {
-    font-size: 32px;
-    @media(max-width: 767px) {
-        font-size: 22px;
-    }
-}
+// div {
+//     font-size: 32px;
+//     @media(max-width: 767px) {
+//         font-size: 22px;
+//     }
+// }
