@@ -8,23 +8,26 @@
 </head>
 <body>
     @@include('modules/_header.html')
-    <main class='main'>
+    <main class='container'>
         <p>Lorem ipsum dolor sit amet.</p>
         <div>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
         </div>
        
         <picture class="img-poly">
-			<source media="(min-width: 728px)" srcset="img/picture/tshirt-for-gamer.webp" type="image/webp">
-			<source media="(min-width: 728px)" srcset="img/picture/tshirt-for-gamer.jpg">
+			<source media="(min-width: 728px)" srcset="img/pics/dd.webp" type="image/webp">
+			<source media="(min-width: 728px)" srcset="img/pics/dd.jpg">
 
-		    <source media="(min-width: 320px)" srcset="img/picture/tshirt-for-gamer-small.webp" type="image/webp">
-		    <source media="(min-width: 320px)" srcset="img/picture/tshirt-for-gamer-small.jpg">
+		    <source media="(min-width: 320px)" srcset="img/pics/dd.webp" type="image/webp">
+		    <source media="(min-width: 320px)" srcset="img/pics/dd.jpg">
 
-		    <img width="200" src='img/dd.jpg' alt="alt">
+		    <img width="200" src='img/pics/dd.jpg' alt="alt">
         </picture>
         
         @@include('modules/_popup.html')
+        @@include('modules/_radio-variants.html')
+        @@include('modules/_rate.html')
+        @@include('modules/_video.html')
     </main>
     
 

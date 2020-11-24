@@ -998,7 +998,7 @@ template {
   position: relative;
   width: 90px;
   height: 18px;
-  background-image: url(../img/svg-icon/star.svg);
+  background-image: url(../img/svg/star.svg);
   background-size: 18px;
   background-repeat: repeat-x;
 }
@@ -1032,7 +1032,7 @@ template {
 
 .rate__input:checked + .rate__star,
 .rate__star:hover {
-  background-image: url(../img/svg-icon/star-active.svg);
+  background-image: url(../img/svg/star-active.svg);
   background-size: 18px;
 }
 
@@ -1239,12 +1239,12 @@ template {
 
 .slick-prev {
   left: -40px;
-  background-image: url(../img/svg-icon/arrow-left.svg);
+  background-image: url(../img/svg/arrow-left.svg);
 }
 
 .slick-next {
   right: -40px;
-  background-image: url(../img/svg-icon/arrow-right.svg);
+  background-image: url(../img/svg/arrow-right.svg);
 }
 
 @media screen and (max-width: 933px) {

@@ -15,7 +15,7 @@ $star-size: 18px;
 		position: relative;
 		width: $star-size * 5;
 		height: $star-size;
-		background-image: url(../img/svg-icon/star.svg);
+		background-image: url(../img/svg/star.svg);
 		background-size: $star-size;
 		background-repeat: repeat-x;
 	}
@@ -48,7 +48,7 @@ $star-size: 18px;
 
 	&__input:checked + &__star,
 	&__star:hover {
-		background-image: url(../img/svg-icon/star-active.svg);
+		background-image: url(../img/svg/star-active.svg);
 		background-size: $star-size;
 	}
 
